@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AFE9D624ADCF43005EAB81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9D524ADCF43005EAB81 /* AppDelegate.m */; };
+		E5AFE9D924ADCF43005EAB81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9D824ADCF43005EAB81 /* SceneDelegate.m */; };
+		E5AFE9DC24ADCF43005EAB81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9DB24ADCF43005EAB81 /* ViewController.m */; };
+		E5AFE9DF24ADCF43005EAB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE9DD24ADCF43005EAB81 /* Main.storyboard */; };
+		E5AFE9E124ADCF45005EAB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE9E024ADCF45005EAB81 /* Assets.xcassets */; };
+		E5AFE9E424ADCF45005EAB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE9E224ADCF45005EAB81 /* LaunchScreen.storyboard */; };
+		E5AFE9E724ADCF45005EAB81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9E624ADCF45005EAB81 /* main.m */; };
+		E5AFE9EF24ADCF88005EAB81 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9EE24ADCF88005EAB81 /* RenderView.m */; };
+		E5AFE9F224ADD5E9005EAB81 /* FilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE9F124ADD5E9005EAB81 /* FilterCell.m */; };
+		E5AFE9FE24AE107C005EAB81 /* shader_0.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE9FD24AE107C005EAB81 /* shader_0.vsh */; };
+		E5AFEA0024AE108A005EAB81 /* shader_0.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE9FF24AE108A005EAB81 /* shader_0.fsh */; };
+		E5AFEA0224AE1099005EAB81 /* shader_2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0124AE1099005EAB81 /* shader_2.vsh */; };
+		E5AFEA0424AE10A9005EAB81 /* shader_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0324AE10A9005EAB81 /* shader_2.fsh */; };
+		E5AFEA0624AE10D6005EAB81 /* shader_3.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0524AE10D6005EAB81 /* shader_3.vsh */; };
+		E5AFEA0824AE10E0005EAB81 /* shader_3.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0724AE10E0005EAB81 /* shader_3.fsh */; };
+		E5AFEA0A24AE10EE005EAB81 /* shader_4.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0924AE10EE005EAB81 /* shader_4.vsh */; };
+		E5AFEA0C24AE10F9005EAB81 /* shader_4.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0B24AE10F9005EAB81 /* shader_4.fsh */; };
+		E5AFEA0E24AE110A005EAB81 /* shader_6.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0D24AE110A005EAB81 /* shader_6.vsh */; };
+		E5AFEA1024AE1113005EAB81 /* shader_6.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA0F24AE1113005EAB81 /* shader_6.fsh */; };
+		E5AFEA1624AE113B005EAB81 /* shader_9.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA1524AE113B005EAB81 /* shader_9.vsh */; };
+		E5AFEA1824AE1146005EAB81 /* shader_9.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA1724AE1146005EAB81 /* shader_9.fsh */; };
+		E5AFEA1A24AE1154005EAB81 /* shader_16.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA1924AE1154005EAB81 /* shader_16.vsh */; };
+		E5AFEA1C24AE115F005EAB81 /* shader_16.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E5AFEA1B24AE115F005EAB81 /* shader_16.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5AFE9D124ADCF43005EAB81 /* SplitScreenFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitScreenFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AFE9D424ADCF43005EAB81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5AFE9D524ADCF43005EAB81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5AFE9D724ADCF43005EAB81 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E5AFE9D824ADCF43005EAB81 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E5AFE9DA24ADCF43005EAB81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5AFE9DB24ADCF43005EAB81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5AFE9DE24ADCF43005EAB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5AFE9E024ADCF45005EAB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5AFE9E324ADCF45005EAB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5AFE9E524ADCF45005EAB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AFE9E624ADCF45005EAB81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AFE9ED24ADCF88005EAB81 /* RenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		E5AFE9EE24ADCF88005EAB81 /* RenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		E5AFE9F024ADD5E9005EAB81 /* FilterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterCell.h; sourceTree = "<group>"; };
+		E5AFE9F124ADD5E9005EAB81 /* FilterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterCell.m; sourceTree = "<group>"; };
+		E5AFE9FD24AE107C005EAB81 /* shader_0.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_0.vsh; sourceTree = "<group>"; };
+		E5AFE9FF24AE108A005EAB81 /* shader_0.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_0.fsh; sourceTree = "<group>"; };
+		E5AFEA0124AE1099005EAB81 /* shader_2.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_2.vsh; sourceTree = "<group>"; };
+		E5AFEA0324AE10A9005EAB81 /* shader_2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_2.fsh; sourceTree = "<group>"; };
+		E5AFEA0524AE10D6005EAB81 /* shader_3.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_3.vsh; sourceTree = "<group>"; };
+		E5AFEA0724AE10E0005EAB81 /* shader_3.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_3.fsh; sourceTree = "<group>"; };
+		E5AFEA0924AE10EE005EAB81 /* shader_4.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_4.vsh; sourceTree = "<group>"; };
+		E5AFEA0B24AE10F9005EAB81 /* shader_4.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_4.fsh; sourceTree = "<group>"; };
+		E5AFEA0D24AE110A005EAB81 /* shader_6.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_6.vsh; sourceTree = "<group>"; };
+		E5AFEA0F24AE1113005EAB81 /* shader_6.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_6.fsh; sourceTree = "<group>"; };
+		E5AFEA1524AE113B005EAB81 /* shader_9.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_9.vsh; sourceTree = "<group>"; };
+		E5AFEA1724AE1146005EAB81 /* shader_9.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_9.fsh; sourceTree = "<group>"; };
+		E5AFEA1924AE1154005EAB81 /* shader_16.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_16.vsh; sourceTree = "<group>"; };
+		E5AFEA1B24AE115F005EAB81 /* shader_16.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_16.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AFE9CE24ADCF43005EAB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AFE9C824ADCF43005EAB81 = {
+			isa = PBXGroup;
+			children = (
+				E5AFE9D324ADCF43005EAB81 /* SplitScreenFilter */,
+				E5AFE9D224ADCF43005EAB81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AFE9D224ADCF43005EAB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE9D124ADCF43005EAB81 /* SplitScreenFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AFE9D324ADCF43005EAB81 /* SplitScreenFilter */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE9F424AE0DA6005EAB81 /* Filter */,
+				E5AFE9D424ADCF43005EAB81 /* AppDelegate.h */,
+				E5AFE9D524ADCF43005EAB81 /* AppDelegate.m */,
+				E5AFE9D724ADCF43005EAB81 /* SceneDelegate.h */,
+				E5AFE9D824ADCF43005EAB81 /* SceneDelegate.m */,
+				E5AFE9DA24ADCF43005EAB81 /* ViewController.h */,
+				E5AFE9DB24ADCF43005EAB81 /* ViewController.m */,
+				E5AFE9F024ADD5E9005EAB81 /* FilterCell.h */,
+				E5AFE9F124ADD5E9005EAB81 /* FilterCell.m */,
+				E5AFE9ED24ADCF88005EAB81 /* RenderView.h */,
+				E5AFE9EE24ADCF88005EAB81 /* RenderView.m */,
+				E5AFE9DD24ADCF43005EAB81 /* Main.storyboard */,
+				E5AFE9E024ADCF45005EAB81 /* Assets.xcassets */,
+				E5AFE9E224ADCF45005EAB81 /* LaunchScreen.storyboard */,
+				E5AFE9E524ADCF45005EAB81 /* Info.plist */,
+				E5AFE9E624ADCF45005EAB81 /* main.m */,
+			);
+			path = SplitScreenFilter;
+			sourceTree = "<group>";
+		};
+		E5AFE9F424AE0DA6005EAB81 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE9FD24AE107C005EAB81 /* shader_0.vsh */,
+				E5AFE9FF24AE108A005EAB81 /* shader_0.fsh */,
+				E5AFEA0124AE1099005EAB81 /* shader_2.vsh */,
+				E5AFEA0324AE10A9005EAB81 /* shader_2.fsh */,
+				E5AFEA0524AE10D6005EAB81 /* shader_3.vsh */,
+				E5AFEA0724AE10E0005EAB81 /* shader_3.fsh */,
+				E5AFEA0924AE10EE005EAB81 /* shader_4.vsh */,
+				E5AFEA0B24AE10F9005EAB81 /* shader_4.fsh */,
+				E5AFEA0D24AE110A005EAB81 /* shader_6.vsh */,
+				E5AFEA0F24AE1113005EAB81 /* shader_6.fsh */,
+				E5AFEA1524AE113B005EAB81 /* shader_9.vsh */,
+				E5AFEA1724AE1146005EAB81 /* shader_9.fsh */,
+				E5AFEA1924AE1154005EAB81 /* shader_16.vsh */,
+				E5AFEA1B24AE115F005EAB81 /* shader_16.fsh */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AFE9D024ADCF43005EAB81 /* SplitScreenFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AFE9EA24ADCF45005EAB81 /* Build configuration list for PBXNativeTarget "SplitScreenFilter" */;
+			buildPhases = (
+				E5AFE9CD24ADCF43005EAB81 /* Sources */,
+				E5AFE9CE24ADCF43005EAB81 /* Frameworks */,
+				E5AFE9CF24ADCF43005EAB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitScreenFilter;
+			productName = SplitScreenFilter;
+			productReference = E5AFE9D124ADCF43005EAB81 /* SplitScreenFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AFE9C924ADCF43005EAB81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Misaka;
+				TargetAttributes = {
+					E5AFE9D024ADCF43005EAB81 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E5AFE9CC24ADCF43005EAB81 /* Build configuration list for PBXProject "SplitScreenFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5AFE9C824ADCF43005EAB81;
+			productRefGroup = E5AFE9D224ADCF43005EAB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AFE9D024ADCF43005EAB81 /* SplitScreenFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AFE9CF24ADCF43005EAB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFEA0424AE10A9005EAB81 /* shader_2.fsh in Resources */,
+				E5AFEA1C24AE115F005EAB81 /* shader_16.fsh in Resources */,
+				E5AFE9FE24AE107C005EAB81 /* shader_0.vsh in Resources */,
+				E5AFE9E424ADCF45005EAB81 /* LaunchScreen.storyboard in Resources */,
+				E5AFEA0024AE108A005EAB81 /* shader_0.fsh in Resources */,
+				E5AFEA0824AE10E0005EAB81 /* shader_3.fsh in Resources */,
+				E5AFEA1824AE1146005EAB81 /* shader_9.fsh in Resources */,
+				E5AFEA0C24AE10F9005EAB81 /* shader_4.fsh in Resources */,
+				E5AFEA0E24AE110A005EAB81 /* shader_6.vsh in Resources */,
+				E5AFEA0A24AE10EE005EAB81 /* shader_4.vsh in Resources */,
+				E5AFEA1624AE113B005EAB81 /* shader_9.vsh in Resources */,
+				E5AFEA0624AE10D6005EAB81 /* shader_3.vsh in Resources */,
+				E5AFE9E124ADCF45005EAB81 /* Assets.xcassets in Resources */,
+				E5AFE9DF24ADCF43005EAB81 /* Main.storyboard in Resources */,
+				E5AFEA1A24AE1154005EAB81 /* shader_16.vsh in Resources */,
+				E5AFEA0224AE1099005EAB81 /* shader_2.vsh in Resources */,
+				E5AFEA1024AE1113005EAB81 /* shader_6.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AFE9CD24ADCF43005EAB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFE9DC24ADCF43005EAB81 /* ViewController.m in Sources */,
+				E5AFE9F224ADD5E9005EAB81 /* FilterCell.m in Sources */,
+				E5AFE9EF24ADCF88005EAB81 /* RenderView.m in Sources */,
+				E5AFE9D624ADCF43005EAB81 /* AppDelegate.m in Sources */,
+				E5AFE9E724ADCF45005EAB81 /* main.m in Sources */,
+				E5AFE9D924ADCF43005EAB81 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5AFE9DD24ADCF43005EAB81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AFE9DE24ADCF43005EAB81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5AFE9E224ADCF45005EAB81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AFE9E324ADCF45005EAB81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AFE9E824ADCF45005EAB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5AFE9E924ADCF45005EAB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AFE9EB24ADCF45005EAB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N43APWRRP;
+				INFOPLIST_FILE = SplitScreenFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.SplitScreenFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5AFE9EC24ADCF45005EAB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N43APWRRP;
+				INFOPLIST_FILE = SplitScreenFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.SplitScreenFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AFE9CC24ADCF43005EAB81 /* Build configuration list for PBXProject "SplitScreenFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE9E824ADCF45005EAB81 /* Debug */,
+				E5AFE9E924ADCF45005EAB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AFE9EA24ADCF45005EAB81 /* Build configuration list for PBXNativeTarget "SplitScreenFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE9EB24ADCF45005EAB81 /* Debug */,
+				E5AFE9EC24ADCF45005EAB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AFE9C924ADCF43005EAB81 /* Project object */;
+}
